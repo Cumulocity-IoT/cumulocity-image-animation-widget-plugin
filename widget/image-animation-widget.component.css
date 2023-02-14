@@ -1,0 +1,30 @@
+.widget-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ffffff;
+}
+
+.image-outer-container {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.short-description {
+    text-align: center;
+    min-height: 25px;
+}
+
+.short-description-above {
+    padding-top: 2px;
+    margin-bottom: 5px;
+}
+
+.short-description-below {
+    margin-top: 5px;
+}
