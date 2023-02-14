@@ -1,0 +1,90 @@
+{
+  "name": "cumulocity-image-animation-widget-plugin",
+  "version": "1.0.0-beta",
+  "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
+  "scripts": {
+    "start": "c8ycli server",
+    "build": "c8ycli build",
+    "deploy": "c8ycli deploy",
+    "postinstall": "ngcc",
+    "prebuild": " gulp clean",
+    "postbuild": " gulp bundle"
+  },
+  "keywords": [],
+  "author": "Darpankumar Lalani - Software AG, Global Presales.",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@angular/animations": "14.0.6",
+    "@angular/cdk": "14.1.2",
+    "@angular/common": "14.0.6",
+    "@angular/compiler": "14.0.6",
+    "@angular/core": "14.0.6",
+    "@angular/forms": "14.0.6",
+    "@angular/platform-browser": "14.0.6",
+    "@angular/platform-browser-dynamic": "14.0.6",
+    "@angular/router": "14.0.6",
+    "@angular/upgrade": "14.0.6",
+    "@c8y/client": "1016.0.109",
+    "@c8y/ngx-components": "1016.0.109",
+    "@ngx-translate/core": "14.0.0",
+    "rxjs": "~6.6.3",
+    "zone.js": "~0.11.7",
+    "@c8y/style": "1016.0.109",
+    "chart.js": "2.9.3",
+    "is-base64": "^1.1.0",
+    "core-js": "3.4.0",
+    "lodash": "4.17.20",
+    "url-search-params-polyfill": "6.0.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "14.0.6",
+    "@angular/compiler-cli": "14.0.6",
+    "@angular/language-service": "14.0.6",
+    "@angular/service-worker": "14.0.6",
+    "@angular/localize": "14.0.6",
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "jest-preset-angular": "^12.2.0",
+    "typescript": "4.7.4",
+    "@c8y/cli": "1016.0.109",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.1",
+    "del": "^6.1.1",
+    "style-loader": "3.3.1",
+    "html-loader": "4.1.0"
+  },
+  "c8y": {
+    "application": {
+      "name": "Cumulocity Image Animation Widget Plugin",
+      "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
+      "contextPath": "image-animation-widget",
+      "key": "image-animation-widget-application-key",
+      "globalTitle": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
+      "tabsHorizontal": true,
+      "isPackage": true,
+      "noAppSwitcher": true,
+      "package": "plugin",
+      "requiredPlatformVersion": ">=1016.0.0",
+      "icon": {
+        "class": "fa fw fa-arrows"
+      },
+      "exports": [
+        {
+          "name": "Image Animation widget plugin",
+          "module": "ImageAnimationWidgetModule",
+          "path": "./widget/image-animation-widget.module.ts",
+          "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another."
+        }
+      ],
+      "remotes": {
+        "widget-plugin": [
+          "ImageAnimationWidgetModule"
+        ]
+      }
+    },
+    "cli": {}
+  },
+  "browserslist": [
+    "last 2 major versions"
+  ]
+}
