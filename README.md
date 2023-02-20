@@ -68,9 +68,6 @@ Congratulations! Image Animation is configured.
 ## Userguide
 This guide will teach you how to add the widget in your existing or new dashboard.
 
-NOTE: This guide assumes that you have followed the [installation](https://github.com/SoftwareAG/cumulocity-runtime-widget-loader) instructions
-
-
 ### Configuration options
 
 The widget configuration page contains a number of configuration attributes. These attributes are dependent upon the '**Animation type**' which is selected.
