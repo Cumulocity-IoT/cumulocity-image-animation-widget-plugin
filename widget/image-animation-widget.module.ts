@@ -37,7 +37,7 @@ import { ImageAnimationWidgetConfig } from "./image-animation-widget-config.comp
             useValue: {
                 id: 'global.presales.image.animation.widget',
                 label: 'Image Animation',
-                description: 'Animates an image: scroll up, scroll down, scroll left, scroll right, fade out, fade in, rotate, swap',
+                description: 'The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.',
                 component: ImageAnimationWidget,
                 configComponent: ImageAnimationWidgetConfig,
                 previewImage: require("../styles/previewImage.png")

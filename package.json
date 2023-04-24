@@ -1,16 +1,18 @@
 {
   "name": "cumulocity-image-animation-widget-plugin",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
   "scripts": {
     "start": "c8ycli server",
-    "build": "c8ycli build",
+    "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [],
+  "keywords": ["Cumulocity",
+  "Plugin",
+  "Widget"],
   "author": "Darpankumar Lalani - Software AG, Global Presales.",
   "license": "Apache 2.0",
   "dependencies": {
@@ -55,10 +57,10 @@
   },
   "c8y": {
     "application": {
-      "name": "Cumulocity Image Animation Widget Plugin",
+      "name": "Image Animation Widget",
       "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
-      "contextPath": "image-animation-widget",
-      "key": "image-animation-widget-application-key",
+      "contextPath": "sag-ps-pkg-image-animation-widget",
+      "key": "sag-ps-pkg-image-animation-widget-application-key",
       "globalTitle": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
       "tabsHorizontal": true,
       "isPackage": true,
@@ -70,7 +72,7 @@
       },
       "exports": [
         {
-          "name": "Image Animation widget plugin",
+          "name": "Image Animation Widget",
           "module": "ImageAnimationWidgetModule",
           "path": "./widget/image-animation-widget.module.ts",
           "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another."

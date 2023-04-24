@@ -22,6 +22,7 @@ import * as _ from 'lodash';
 @Component({
   selector: 'image-animation-widget-config',
   templateUrl: './image-animation-widget-config.component.html',
+  styleUrls: ['./image-animation-widget-config.component.css'],
 })
 export class ImageAnimationWidgetConfig {
 
