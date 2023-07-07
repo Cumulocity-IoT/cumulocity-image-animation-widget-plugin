@@ -4,8 +4,8 @@
 This Image Animation widget is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit.
 The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.
 
-![Swap animation example](./example-gifs/swap-example.gif)
-![Scroll animation example](./example-gifs/scroll-example.gif)
+![Swap animation example](example-gifs/swap-example.gif)
+![Scroll animation example](example-gifs/scroll-example.gif)
 
 ### Please choose Image Animation release based on Cumulocity/Application builder version:
 

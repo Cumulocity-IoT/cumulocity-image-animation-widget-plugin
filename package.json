@@ -10,9 +10,11 @@
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": ["Cumulocity",
-  "Plugin",
-  "Widget"],
+  "keywords": [
+    "Cumulocity",
+    "Plugin",
+    "Widget"
+  ],
   "author": "Darpankumar Lalani - Software AG, Global Presales.",
   "license": "Apache 2.0",
   "dependencies": {
@@ -82,7 +84,21 @@
         "widget-plugin": [
           "ImageAnimationWidgetModule"
         ]
-      }
+      },
+      "copy": [
+        {
+          "from": "example-gifs/scroll-example.gif",
+          "to": "example-gifs/scroll-example.gif"
+        },
+        {
+          "from": "example-gifs/swap-example.gif",
+          "to": "example-gifs/swap-example.gif"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE.txt"
+        }
+      ]
     },
     "cli": {}
   },
