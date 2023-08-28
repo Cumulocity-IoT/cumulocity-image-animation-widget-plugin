@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-image-animation-widget-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
   "scripts": {
     "start": "c8ycli server",
