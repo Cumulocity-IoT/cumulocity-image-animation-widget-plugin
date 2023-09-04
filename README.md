@@ -1,4 +1,4 @@
-# Image Animation Widget for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-image-animation-widget-plugin/releases/download/1.0.0/sag-ps-pkg-image-animation-widget-1.0.0.zip)
+# Image Animation Widget for Cumulocity [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-image-animation-widget-plugin/releases/download/1.0.1/sag-ps-pkg-image-animation-widget-1.0.1.zip)
 
 
 This Image Animation widget is the Cumulocity module federation plugin created using c8ycli. This plugin can be used in Application Builder or Cockpit.
@@ -10,8 +10,8 @@ The Image Animation widget supports scrolling an image up, down, left or right, 
 ### Please choose Image Animation release based on Cumulocity/Application builder version:
 
 |APPLICATION BUILDER &nbsp;| &nbsp; CUMULOCITY &nbsp; | &nbsp; IMAGE ANIMATION WIDGET &nbsp;|
-|--------------------|------------|------------------------|
-| 2.0.x              | >= 1016.x.x| 1.x.x                  | 
+|--------------------|----------|------------------------|
+| 2.0.x              | 1016.0.x | 1.x.x                  | 
 
      
 ## Features
@@ -41,7 +41,7 @@ The Image Animation widget supports scrolling an image up, down, left or right, 
 
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-image-animation-widget-plugin/releases/download/1.0.0/sag-ps-pkg-image-animation-widget-1.0.0.zip) and install via Administrations --> Ecosystems --> Applications --> Packages.
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-image-animation-widget-plugin/releases/download/1.0.1/sag-ps-pkg-image-animation-widget-1.0.1.zip) and install via Administrations --> Ecosystems --> Applications --> Packages.
 
 
 ## QuickStart
