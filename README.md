@@ -10,8 +10,8 @@ The Image Animation widget supports scrolling an image up, down, left or right, 
 ### Please choose Image Animation release based on Cumulocity/Application builder version:
 
 |APPLICATION BUILDER &nbsp;| &nbsp; CUMULOCITY &nbsp; | &nbsp; IMAGE ANIMATION WIDGET &nbsp;|
-|--------------------|------------|------------------------|
-| 2.0.x              | >= 1016.x.x| 1.x.x                  | 
+|--------------------|----------|------------------------|
+| 2.0.x              | 1016.0.x | 1.x.x                  | 
 
      
 ## Features
