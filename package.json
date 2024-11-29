@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-image-animation-widget-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.",
   "scripts": {
     "start": "c8ycli server",
@@ -15,7 +15,7 @@
     "Plugin",
     "Widget"
   ],
-  "author": "Darpankumar Lalani - Software AG, Global Presales.",
+  "author": "Darpankumar Lalani - Cumulocity Ecosystem",
   "license": "Apache 2.0",
   "dependencies": {
     "@angular/animations": "14.0.6",
